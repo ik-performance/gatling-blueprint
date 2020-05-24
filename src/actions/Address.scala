@@ -4,7 +4,7 @@ import io.gatling.core.body.StringBody
 import io.gatling.http.Predef._
 import io.gatling.core.Predef._
 
-object Address {
+object PostBlueprintObject {
 
   val address = csv("address.csv").eager.random
 

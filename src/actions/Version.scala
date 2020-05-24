@@ -5,7 +5,6 @@ import io.gatling.core.Predef._
 
 object Version {
 
-
   val validate =
     exec(http("Version Check")
       .get("/__version__"))
