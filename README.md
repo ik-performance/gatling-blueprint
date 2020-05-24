@@ -2,7 +2,9 @@
 
 Starter/Blueprint project for writing performance tests with Gatling, using Gradle as buildtool.
 
-[Documentation](https://gatling.io/docs/current/)
+- [Documentation](https://gatling.io/docs/current/)
+- [Cheet Sheet](https://gatling.io/docs/current/cheat-sheet/)
+- [Reports](https://gatling.io/docs/current/general/reports/)
 
 [![](https://img.shields.io/github/license/ik-performance/gatling-blueprint)](https://github.com/ik-performance/gatling-blueprint)
 ![](https://img.shields.io/github/v/tag/ik-performance/gatling-blueprint)
@@ -21,6 +23,9 @@ Starter/Blueprint project for writing performance tests with Gatling, using Grad
     + [Gatling DSL](#gatling-dsl)
     + [Scenario's](#scenario-s)
     + [Simulations](#simulations)
+  * [Mocking](#mocking)
+    + [Data](#data)
+    + [API](#api)
   * [Alternative Examples](#alternative-examples)
   * [Targets](#targets)
   * [:memo: Guidelines](#-memo--guidelines)
@@ -40,6 +45,18 @@ A scenario contains at least one request. Typically, this is a HTTP request.
 
 ### Simulations
 A simulation can be seen as the actual test. It determines what scenario's should be run, and how many users should be simulated over the scenario's.
+
+## Mocking
+
+### Data
+
+- https://mockaroo.com/
+
+### API
+
+- https://mockaroo.com/
+- https://jsonplaceholder.typicode.com
+- https://test-api.k6.io/
 
 ## Alternative Examples
 

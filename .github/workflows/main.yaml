@@ -12,7 +12,7 @@ jobs:
           fetch-depth: '1'
       - name: Install Deps
         run: |
-          brew install pre-commit
+          brew install pre-commit shellcheck
       - name: Check All Files
         run: |
           pre-commit run --all-files

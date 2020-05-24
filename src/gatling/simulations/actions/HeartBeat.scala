@@ -7,6 +7,6 @@ object HeartBeat {
   val beat =
     exec(http("HeartBeat Check")
       .get("/__heartbeat__"))
-  exec(http("Version Check")
-    .get("/__version__"))
+    exec(http("Version Check")
+      .get("/__version__"))
 }
