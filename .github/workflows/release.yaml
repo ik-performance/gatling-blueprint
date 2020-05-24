@@ -16,7 +16,7 @@ jobs:
     steps:
     - uses: actions/checkout@master
       with:
-        fetch-depth: '10'
+        fetch-depth: '1'
 
     - name: register values
       id: register
